@@ -2,3 +2,37 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: #ff0070;
+  --menu-font-color: #ff0070;
+  --header-padding: 10px;
+  --header-padding-bottom: 30px;
+  --header-padding-left: 0;
+  --header-angle-padding: 10px;
+  --rec-content-before: url(../images/ellipse.svg);
+  --rec-block-before-top: 12px;
+  --rec-block-before-right: 25px;
+  --rec-block-after-top: 10px;
+  --rec-block-after-right: 38px;
+  --header-menu-height: calc(100vh / 6.81632);
+  --header-theme-menu-padding-top: calc(100vh / 10.4375);
+  --header-theme-h1-left: -20px;
+  --header-theme-menu-padding-right: 20px;
+  --block-height: auto;
+  --header-theme-h1-top: calc(100vh / 4.77143);
+  --header-theme-h1-line-height: 95.7px;
+  --h1-theme-fontsize: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --h1-theme-color: #db00ff;
+  --header-p-color: #000028;
+  --header-theme-title: calc(100vw - 10px);
+  --header-theme-title-top: calc(100vh / 11.7193);
+  --header-theme-text-div-p-bottom: 26px;
+  --main-margin-top: 50px;
+  --top-margin-first-section: 60px;
+  --main-theme-section-column: 315px;
+  --head-position: 20px;
+  --head-position-block-end: 9px;
+  --article-p-block-end: 25px;
+  --main-padding: 10px;
+
+}
