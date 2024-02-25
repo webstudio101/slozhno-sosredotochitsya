@@ -13,10 +13,9 @@
   --menu-font-color: #ff0070;
   --header-bg: url(../images/cover-image-dark.png);
   --page-bg: #000028;
-  --rec-content-after: "REC";
   --rec-content-before: url(../images/ellipse.svg);
   --rec-content-visiblity: visible;
-  --h1-theme-color: #db00ff;
+  --x-theme-color: #db00ff;
   --menu-border-hover-color: rgba(255, 0, 112, 0.5);
   --general-text-color: #F1B2CE;
   --shadow-color: var(--accent-color);
@@ -24,30 +23,15 @@
 
 }
 
-.header__rec-block::before {
-  content: var(--rec-content-before);
-  visibility: var(--rec-content-visiblity);
-  position: absolute;
-  top: var(--rec-block-before-top);
-  right: var(--rec-block-before-right);
-  width: 9px;
-  height: 9px;
-  fill: #ff0070;
-  filter: drop-shadow(0px 0px 4px #ff0070);
-}
 
-.header__rec-block::after {
-  /*content: var(--rec-content-after);*/
-  content: "REC";
-  visibility: var(--rec-content-visiblity);
-  position: absolute;
-  top: var(--rec-block-after-top);
-  right: var(--rec-block-after-right);
-  color: var(--menu-font-color);
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 25px; /* 138.889% */
-  text-align: center;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-bg: url(../images/cover-image-dark.png);
+    --page-bg: #000028;
+    --shadow-color: var(--accent-color);
+    --menu-border-hover-color: rgba(255, 0, 112, 0.5);
+    --general-text-color: #F1B2CE;
+  }
+
 }

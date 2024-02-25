@@ -17,7 +17,7 @@
   --rec-content-after: "";
   --rec-content-before: "";
   --rec-content-visiblity: hidden;
-  --h1-theme-color: #ffc2e6;
+  --x-theme-color: #ffc2e6;
   --header-p-color: #353430;
   --menu-border-hover-color: rgba(53, 52, 48, 0.5);
   --general-text-color: #353430;
@@ -34,7 +34,7 @@
     --rec-content-after: "";
     --rec-content-before: "";
     --rec-content-visiblity: hidden;
-    --h1-theme-color: #ffc2e6;
+    --x-theme-color: #ffc2e6;
     --header-p-color: #353430;
     --menu-border-hover-color: rgba(53, 52, 48, 0.5);
     --general-text-color: #353430;
