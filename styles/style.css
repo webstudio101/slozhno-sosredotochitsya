@@ -358,7 +358,7 @@
     --main-padding: 10px;
     --gallery-pedding-end: 36px;
     --header-theme-x-left: auto;
-    --section-two-coll: 20px;
+    --section-zz-coll: 20px;
     --article-columns-gap: 10px;
     --header-theme-x-min-height: 300px;
     --header-theme-x-left: auto;
@@ -376,7 +376,8 @@
  
 
   .main__theme-section-images {
-    gap: 10px;}
+    gap: 10px;
+  }
    
   .main__theme-section-gallery
    {
